@@ -1,7 +1,7 @@
 export const companyInfo = {
     name: "NextGen IT Solutions",
     logo: "/logo192.png", // your logo path
-    welcomeText: "Welcome to Sriram Technova <br> Your Digital Transformation Partner",
+    welcomeText: "Welcome to Sriram Technova <br /> Your Digital Transformation Partner",
     services: [
       { title: "Cloud Services", description: "Secure, scalable, and reliable cloud migration & management." },
       { title: "AI Solutions", description: "Custom AI models to automate and accelerate your workflows." },
