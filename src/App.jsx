@@ -44,8 +44,12 @@ export default function App() {
         {/* Welcome tile */}
         <section className={`text-center py-10 bg-gradient-to-r from-cyan-600/20 to-indigo-600/20 backdrop-blur-sm ${tileClass(1)}`}>
           <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight">
-            {companyInfo.welcomeText}
+            {companyInfo.welcomeText1}
           </h1>
+          <h3 className="text-1.5xl md:text-3xl font-extrabold tracking-tight">
+            {companyInfo.welcomeText2}
+          </h3>
+
         </section>
 
         {/* Services tiles (fixed height so grid doesn't collapse) */}
