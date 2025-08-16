@@ -1,8 +1,9 @@
 export const companyInfo = {
-    name: "NextGen IT Solutions",
+    name: "Sriram Technova",
     logo: "/logo192.png", // your logo path
     welcomeText1: "Welcome to Sriram Technova ",
     welcomeText2: "Your Digital Transformation Partner",
+    servicesHeaderText: "Our Offerings",
     services: [
       { title: "Cloud Services", description: "Secure, scalable, and reliable cloud migration & management." },
       { title: "AI Solutions", description: "Custom AI models to automate and accelerate your workflows." },
@@ -10,7 +11,7 @@ export const companyInfo = {
       { title: "DevOps", description: "CI/CD pipelines, monitoring, and automation for rapid delivery." },
     ],
     contact: {
-      email: "contact@nextgenit.com",
+      email: "contact@sriramtechnova.com",
       phone: "+91 98765 43210",
       address: "123 Tech Park, Bengaluru, India"
     }

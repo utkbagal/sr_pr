@@ -52,6 +52,11 @@ export default function App() {
 
         </section>
 
+        <section className={`text-center py-10 bg-gradient-to-r from-cyan-600/20 to-indigo-600/20 backdrop-blur-sm ${tileClass(1)}`}>
+          <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight">
+            {companyInfo.servicesHeaderText}
+          </h2>
+          <br />
         {/* Services tiles (fixed height so grid doesn't collapse) */}
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {companyInfo.services.map((s, i) => (
@@ -68,6 +73,7 @@ export default function App() {
               </div>
             </div>
           ))}
+        </section>
         </section>
 
         {/* Contact tile */}
